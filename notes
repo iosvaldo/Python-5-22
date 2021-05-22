@@ -28,17 +28,3 @@ fav_food = "Pizza"
 MyBio = f'{FirstName} {LastName} is {Age} years old. He has been living in Manhattan since {Year}. {FirstName} lives with his dog {pet_name} and they both love eating {fav_food}.'
 
 print(MyBio)
-
-
-def SplitTheBill(ppl,bill,tip):
-  share = (1+ tip)* bill/ppl
-  share = round(share,2)
-  return share
-  
-# print(SplitTheBill(5,100.13))
-
-# print(f" I went to dinner last night with 4 friends and I spent ${SplitTheBill(5,61.61,0.15)}.")
-
-animal = input("What is your Favorite animal?")
-
-print(animal)
