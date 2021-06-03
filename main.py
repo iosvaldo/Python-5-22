@@ -3,9 +3,9 @@ def SplitTheBill(ppl,bill,tip):
   share = round(share,2)
   return share
   
-# print(SplitTheBill(5,100.13))
+print(SplitTheBill(5,100.13))
 
-# print(f" I went to dinner last night with 4 friends and I spent ${SplitTheBill(5,61.61,0.15)}.")
+print(f" I went to dinner last night with 4 friends and I spent ${SplitTheBill(5,61.61,0.15)}.")
 
 animal = input("What is your Favorite animal?")
 
